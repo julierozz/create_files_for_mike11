@@ -1,6 +1,6 @@
 import time
     
-def create_sim_file(filename,xs_input,bnd_input,rr_input):
+def create_sim_file(filename,scenar_string,xs_input,bnd_input,rr_input):
     intro = """// Created     : {} {}
     // DLL id      : C:\\Program Files (x86)\\DHI\\2014\bin\\pfs2004.dll
     // PFS version : Jan  6 2011 20:45:15
