@@ -1,9 +1,12 @@
 import numpy as np
 from create_sim_file import *
+from create_rr11_files import *
 from pandas import read_csv
+import os
 
 scenarios=read_csv("scenario_matrix.csv")
 sim11files_folder='sim11files/'
+rr11files_folder='rr11files/'
 
 for i in scenarios.index:
     scenar_number=scenarios.ix[i,'scenario_number']
@@ -13,7 +16,7 @@ for i in scenarios.index:
         scenar_string="0"+str(scenar_number)
     else:
         scenar_string=str(scenar_number)
-    filename=sim11files_folder+"Scenario_"+scenar_string
+    filename="Scenario_"+scenar_string
     if scenarios.ix[i,'wetland_loss']==0:
         xs_input="|.\\Updated_XSec_12.08.2013.xns11|"
     else:
@@ -33,8 +36,14 @@ for i in scenarios.index:
         ro="Projected(2040)"
     elif scenarios.ix[i,'runoff']==2:
         ro="Green"
-    rr_input="|.\\NAM-{}-{}YR-{}.RR11|".format(ro,str(rp),cc)
-    create_sim_file(filename,scenar_string,xs_input,bnd_input,rr_input)
+    rr_output_file="NAM-{}-{}YR-{}.RR11".format(ro,str(rp),cc)
+    rr_input="|.\\"+rr_output_file+"|"
+    intro_txtfile=rr11files_folder+'NAM-intro-catchment-list.txt'
+    ro_txtfile=rr11files_folder+'NAM-{}.txt'.format(ro)
+    rp_cc_txtfile=rr11files_folder+'{}Yr_{}.txt'.format(str(rp),cc)
+    if not os.path.isfile(rr_output_file):
+        create_rr11_files(intro_txtfile,ro_txtfile,rp_cc_txtfile,rr11files_folder+rr_output_file)
+    # create_sim_file(sim11files_folder+filename,scenar_string,xs_input,bnd_input,rr_input)
 
 
 
