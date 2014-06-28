@@ -18,17 +18,17 @@ for i in scenarios.index:
         scenar_string=str(scenar_number)
     filename="Scenario_"+scenar_string
     if scenarios.ix[i,'wetland_loss']==0:
-        xs_input="|.\\Updated_XSec_12.08.2013.xns11|"
+        xs_input="Updated_XSec_12.08.2013.xns11"
     else:
         wlpcloss=scenarios.ix[i,'wetland_loss']
-        xs_input="|.\\{}%_wetland_loss.xns11|".format(str(wlpcloss))
+        xs_input="{}%_wetland_loss.xns11".format(str(wlpcloss))
     if scenarios.ix[i,'climate_change']==0:
         cc="current"
     elif scenarios.ix[i,'climate_change']==1:
         cc="moderate"
     elif scenarios.ix[i,'climate_change']==2:
         cc="high"
-    bnd_input="|.\\High_Kelani-{}.bnd11|".format(cc)
+    bnd_input="High_Kelani-{}.bnd11".format(cc)
     rp=scenarios.ix[i,'return_period']
     if scenarios.ix[i,'runoff']==0:
         ro="Calibrated"
@@ -36,14 +36,13 @@ for i in scenarios.index:
         ro="Projected(2040)"
     elif scenarios.ix[i,'runoff']==2:
         ro="Green"
-    rr_output_file="NAM-{}-{}YR-{}.RR11".format(ro,str(rp),cc)
-    rr_input="|.\\"+rr_output_file+"|"
+    rr_input="NAM-{}-{}YR-{}.RR11".format(ro,str(rp),cc)
     intro_txtfile=rr11files_folder+'NAM-intro-catchment-list.txt'
     ro_txtfile=rr11files_folder+'NAM-{}.txt'.format(ro)
     rp_cc_txtfile=rr11files_folder+'{}Yr_{}.txt'.format(str(rp),cc)
-    if not os.path.isfile(rr_output_file):
-        create_rr11_files(intro_txtfile,ro_txtfile,rp_cc_txtfile,rr11files_folder+rr_output_file)
-    # create_sim_file(sim11files_folder+filename,scenar_string,xs_input,bnd_input,rr_input)
+    if not os.path.isfile(rr11files_folder+rr_input):
+        create_rr11_files(intro_txtfile,ro_txtfile,rp_cc_txtfile,rr11files_folder+rr_input)
+    create_sim_file(sim11files_folder+filename,scenar_string,xs_input,bnd_input,rr_input)
 
 
 

@@ -28,11 +28,11 @@ def create_sim_file(filename,scenar_string,xs_input,bnd_input,rr_input):
        
     input_files = """
         [Input]
-          nwk = |.\\Updated_network_12.08.2013.nwk11|
-          xs = {}
-          bnd = {}
-          rr = {}
-          hd = |.\\Calibration_Flood_Season_2010_Nov.HD11|
+          nwk = |..\\otherfiles\\Updated_network_12.08.2013.nwk11|
+          xs = |..\\xns11files\\{}|
+          bnd = |..\\bnd11files\\{}|
+          rr = |..\\rr11files\\{}|
+          hd = |..\\otherfiles\\Calibration_Flood_Season_2010_Nov.HD11|
           ad = |..\\Colombo_Water_Quality\\AD11\\4components.AD11|
           wq = ||
           st = ||
@@ -83,7 +83,7 @@ def create_sim_file(filename,scenar_string,xs_input,bnd_input,rr_input):
           EndSect  // Simulation_Period
 
           [Initial_Conditions]
-             hd = 1, |..\\HD\\validation_nov_2005.HD11|, false, 2005, 11, 21, 0, 0, 0
+             hd = 1, |..\\otherfiles\\validation_nov_2005.HD11|, false, 2005, 11, 21, 0, 0, 0
              ad = 0, ||, false, 1990, 1, 1, 12, 0, 0
              st = 0, ||, false, 1990, 1, 1, 12, 0, 0
              rr = 0, |..\\Colombo_Water_Quality\\Sim_and_Results\\hotDRY2003_2004RRRRAdd.RES11|, false, 2003, 1, 15, 12, 0, 0
@@ -102,8 +102,8 @@ def create_sim_file(filename,scenar_string,xs_input,bnd_input,rr_input):
 
     EndSect  // Run11"""
     
-    hd_fin="|.\\Results\\Scenario{}.res11|".format(scenar_string)
-    rr_fin="|.\\Results\\Scenario{}RR.res11|".format(scenar_string)
+    hd_fin="|..\\res11files\\Scenario{}.res11|".format(scenar_string)
+    rr_fin="|..\\res11files\\Scenario{}RR.res11|".format(scenar_string)
 
     final_print=final.format(hd_fin,rr_fin)
 
