@@ -1,0 +1,10 @@
+def create_rr11_files(intro_txtfile,ro_txtfile,rp_cc_txtfile,outputfile):
+    intro_txt=open(intro_txtfile,"r")
+    ro_txt=open(ro_txtfile,"r")
+    rp_cc_txt=open(rp_cc_txtfile,"r")
+    file=open(outputfile,"w")
+    file.write(intro_txt.read()+ro_txt.read()+rp_cc_txt.read())
+    file.close()
+    intro_txt.close()
+    ro_txt.close()
+    rp_cc_txt.close()
