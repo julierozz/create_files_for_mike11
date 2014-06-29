@@ -1,0 +1,2416 @@
+
+   [TimeseriesList]
+      Max_Comb_Number = 8
+      [Condition]
+         Catchment_Name = 'C_03'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_03'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_04'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_04'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_05'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_05'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_06'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_06'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_07'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_07'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_08'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_08'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09A'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09A'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_10'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_10'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_11'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_11'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_12'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_12'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_13'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_13'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_14'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_14'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_15'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_15'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_16'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_16'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_17'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_17'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_18'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_18'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_19'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_19'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_21'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_21'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_22'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_22'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_23'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_23'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_24'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_24'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_25'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_25'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_26'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_26'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_28'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_28'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_29'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_29'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_30'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_30'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_31'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_31'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_32'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_32'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_33'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_33'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'MALABE'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'MALABE'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_27A'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_27A'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_27B'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_27B'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_29C'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_29C'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_25A'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_25A'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_25B'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_25B'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_19A'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_19A'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_28A'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_28A'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09C'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09C'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09D'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09D'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09B'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09B'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09D2'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_09D2'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02A'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02A'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02B'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02B'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02C'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02C'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02D'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02D'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02E'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_02E'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_01A'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_01A'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_01B'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_01B'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_01C'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_01C'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_01D'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_01D'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_20'
+         MAWCalculation = false
+         DataType = 0
+         Timeseries = |..\dfs0files\10_YR_design_rain.dfs0|
+         [TimeSeriesItems]
+            Item = 'current', 1
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+      [Condition]
+         Catchment_Name = 'C_20'
+         MAWCalculation = false
+         DataType = 1
+         Timeseries = |..\dfs0files\Evaporation.dfs0|
+         [TimeSeriesItems]
+            Item = 'Colombo_0.8', 2
+         EndSect  // TimeSeriesItems
+
+         [Weighted_average_timeseries]
+         EndSect  // Weighted_average_timeseries
+
+         [Weighted_average_combinations]
+         EndSect  // Weighted_average_combinations
+
+         [Temporal_distribution_timeseries]
+         EndSect  // Temporal_distribution_timeseries
+
+         [Temporal_distribution_combinations]
+         EndSect  // Temporal_distribution_combinations
+
+      EndSect  // Condition
+
+   EndSect  // TimeseriesList
+
+   [BasinStationList]
+      BasinListCount = 0
+   EndSect  // BasinStationList
+
+   [UHM_Common_Parameters]
+      [EnlargeRatio_ParameterList]
+      EndSect  // EnlargeRatio_ParameterList
+
+      [NakayasuLoss_ParameterList]
+      EndSect  // NakayasuLoss_ParameterList
+
+      [F1RsaLoss_ParameterList]
+      EndSect  // F1RsaLoss_ParameterList
+
+      [QLSF_ParameterList]
+      EndSect  // QLSF_ParameterList
+
+      [StartEvent]
+         ApplyStart = false
+         Start = 2001, 12, 10, 16, 3, 4
+      EndSect  // StartEvent
+
+      [SpecVal]
+         ALO = 600
+         Divi = 1
+         Error1 = 0.01
+         IR = 100
+         ISW = 0
+         JS = 200
+         JTO = 999
+         KK1 = 60
+         KK2 = 1
+         LS = 50
+         P = 0.6
+         SI = 0.3
+      EndSect  // SpecVal
+
+   EndSect  // UHM_Common_Parameters
+
+   [UserDefinedCombinationPeriods]
+      ApplyCombination = false
+      PeriodCount = 0
+   EndSect  // UserDefinedCombinationPeriods
+
+   [MAWOutputOneFile]
+      OutputOnlyOne = false
+      MAWFile = |..\..\..\Colombo_Water_Quality\RR11\|
+   EndSect  // MAWOutputOneFile
+
+   [MAWCombNoFile]
+      Apply = true
+      CombFile = ||
+   EndSect  // MAWCombNoFile
+
+   [BasinAreaDefinition]
+      OriginX = 0
+      OriginY = 0
+      Width = 500
+      Height = 350
+   EndSect  // BasinAreaDefinition
+
+   [LAYERS]
+   EndSect  // LAYERS
+
+EndSect  // MIKE_RR
