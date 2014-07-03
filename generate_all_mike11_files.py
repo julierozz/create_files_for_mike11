@@ -28,7 +28,13 @@ for i in scenarios.index:
         cc="moderate"
     elif scenarios.ix[i,'climate_change']==2:
         cc="high"
-    bnd_input="High_Kelani-{}.bnd11".format(cc)
+    if scenarios.ix[i,'bndconditions']==0:
+        bc="Low"
+        sat="low"
+    elif scenarios.ix[i,'bndconditions']==1:
+        bc="High"
+        sat="high"
+    bnd_input="{}_Kelani-{}.bnd11".format(bc,cc)
     rp=scenarios.ix[i,'return_period']
     if scenarios.ix[i,'runoff']==0:
         ro="Calibrated"
@@ -36,12 +42,12 @@ for i in scenarios.index:
         ro="Projected(2040)"
     elif scenarios.ix[i,'runoff']==2:
         ro="Green"
-    rr_input="NAM-{}-{}YR-{}.RR11".format(ro,str(rp),cc)
+    rr_input="NAM-{}-{}YR-{}-{}Saturation.RR11".format(ro,str(rp),cc,sat)
     intro_txtfile=rr11files_folder+'NAM-intro-catchment-list.txt'
-    ro_txtfile=rr11files_folder+'NAM-{}.txt'.format(ro)
+    ro_sat_txtfile=rr11files_folder+'NAM-{}-{}Saturation.txt'.format(ro,sat)
     rp_cc_txtfile=rr11files_folder+'{}Yr_{}.txt'.format(str(rp),cc)
     if not os.path.isfile(rr11files_folder+rr_input):
-        create_rr11_files(intro_txtfile,ro_txtfile,rp_cc_txtfile,rr11files_folder+rr_input)
+        create_rr11_files(intro_txtfile,ro_sat_txtfile,rp_cc_txtfile,rr11files_folder+rr_input)
     create_sim_file(sim11files_folder+filename,scenar_string,xs_input,bnd_input,rr_input)
 
 

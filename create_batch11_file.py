@@ -1,9 +1,12 @@
 from pandas import read_csv
 import os
 
-model=os.getcwd()
+localmodel=os.getcwd()
+model="G:\\wetland_simulations"
 
-scenarios=read_csv(model+"\\scenario_matrix.csv")
+
+scenarios=read_csv(localmodel+"\\scenario_matrix.csv")
+numsim=len(scenarios)
 
 sim11files_folder=model+'\\sim11files\\'
 rr11files_folder=model+'\\rr11files\\'
@@ -21,7 +24,7 @@ intro="""// Created     : 2014-06-30 15:58:49
    [Global_Variables]
       [Global_Values]
          BaseFileName = '{}Scenario_001.sim11'
-         NbOfSimulations = 225
+         NbOfSimulations = {}
          NbOfParameters = 10
          ColName = 'Cross section'
          ColWidth = 300
@@ -117,7 +120,7 @@ scenar_description="""         Value = '{}'
 """
 
 
-outputtext=intro.format(sim11files_folder)
+outputtext=intro.format(sim11files_folder,str(numsim))
          
 for i in scenarios.index:
     scenar_number=scenarios.ix[i,'scenario_number']
@@ -139,7 +142,13 @@ for i in scenarios.index:
         cc="moderate"
     elif scenarios.ix[i,'climate_change']==2:
         cc="high"
-    bnd_input="High_Kelani-{}.bnd11".format(cc)
+    if scenarios.ix[i,'bndconditions']==0:
+        bc="Low"
+        sat="low"
+    elif scenarios.ix[i,'bndconditions']==1:
+        bc="High"
+        sat="high"
+    bnd_input="{}_Kelani-{}.bnd11".format(bc,cc)
     rp=scenarios.ix[i,'return_period']
     if scenarios.ix[i,'runoff']==0:
         ro="Calibrated"
@@ -147,7 +156,7 @@ for i in scenarios.index:
         ro="Projected(2040)"
     elif scenarios.ix[i,'runoff']==2:
         ro="Green"
-    rr_input="NAM-{}-{}YR-{}.RR11".format(ro,str(rp),cc)
+    rr_input="NAM-{}-{}YR-{}-{}Saturation.RR11".format(ro,str(rp),cc,sat)
     hd_res="Scenario{}.res11".format(scenar_string)
     rr_res="Scenario{}RR.res11".format(scenar_string)
     outputtext+=scenar_description.format(xns11files_folder+xs_input,bnd11files_folder+bnd_input,rr11files_folder+rr_input,res11files_folder+hd_res,res11files_folder+rr_res)
