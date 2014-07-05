@@ -17,7 +17,7 @@ otherfiles_folder=model+'\\otherfiles\\'
 res11files_folder=model+'\\res11files\\'
 
 intro="""// Created     : 2014-06-30 15:58:49
-// DLL id      : C:\\Program Files (x86)\\DHI\\2014\\bin\\x64\\pfs2004.dll
+// DLL id      : C:\\Program Files (x86)\\DHI\\2011\\Bin\\pfs2004.dll
 // PFS version : Dec 16 2013 19:42:22
 
 [MIKE_BS1]
