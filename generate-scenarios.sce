@@ -13,7 +13,7 @@ getd()
 scenario_matrix=[];
 number=1;
 for returnp=[2 5 10 25 50]
-	for loss=[0 20 50 70 100]
+	for loss=[0 10 50 70 100]
 		for cc=[0 1 2]
 			for runoff=[0 1 2]
                 for bndconditions=[0 1]
