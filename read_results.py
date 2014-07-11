@@ -1,6 +1,7 @@
 from pandas import read_table,DataFrame
 from numpy import round
 import os.path
+import math
 
 def get_scenario_results(scenar_number):
     if scenar_number<10:
@@ -12,6 +13,8 @@ def get_scenario_results(scenar_number):
     fname="outputfiles\scenario{}_all.txt".format(scenar_string)
     if os.path.isfile(fname):
         scenar=read_table(fname,low_memory=False,header=1)
+        if scenar['Time'].tail(1).values!='2010-11-14T00:00:00':
+            scenar=0
     else:
         scenar=0
     return scenar
@@ -27,13 +30,13 @@ scenar=get_scenario_results(sc)
 hop=scenar.columns.tolist()
 
 for i in ip.index:
-    theplace=ip['Branch Name'][i].upper()+'('+ip['Chainage'][i].astype(str)
+    theplace=ip['Branch Name'][i].upper()+'('+str(math.trunc(ip['Chainage'][i]))+'.'
     loc=[s for s in hop if theplace in s]
     if loc!=[]: 
         listofnames.append(loc[0])
 
 for i in cmc.index:
-    theplace=cmc['Branch Name'][i].upper()+'('+cmc['Chainage'][i].astype(str)
+    theplace=cmc['Branch Name'][i].upper()+'('+str(math.trunc(cmc['Chainage'][i]))+'.'
     loc=[s for s in hop if theplace in s]
     if loc!=[]: 
         listofnames.append(loc[0])
