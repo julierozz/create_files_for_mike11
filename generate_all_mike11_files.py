@@ -36,11 +36,11 @@ for i in scenarios.index:
         sat="high"
     bnd_input="{}_Kelani-{}.bnd11".format(bc,cc)
     rp=scenarios.ix[i,'return_period']
-    if scenarios.ix[i,'runoff']==0:
+    if scenarios.ix[i,'runoff']==0.4:
         ro="Calibrated"
-    elif scenarios.ix[i,'runoff']==1:
+    elif scenarios.ix[i,'runoff']==0.6:
         ro="Projected(2040)"
-    elif scenarios.ix[i,'runoff']==2:
+    elif scenarios.ix[i,'runoff']==0.5:
         ro="Green"
     rr_input="NAM-{}-{}YR-{}-{}Saturation.RR11".format(ro,str(rp),cc,sat)
     intro_txtfile=rr11files_folder+'NAM-intro-catchment-list.txt'
