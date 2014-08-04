@@ -1,4 +1,4 @@
-from pandas import read_table,DataFrame
+from pandas import read_table,DataFrame,read_csv,concat
 from numpy import round
 import os.path
 import math
@@ -23,6 +23,8 @@ def get_scenario_results(scenar_number):
 ip=read_table("interesting_places.txt")
 cmc=read_table("cmc_locations.txt")
 
+scenar_def=read_csv("scenario_matrix.csv")
+
 listofnames=list()
 
 sc=1
@@ -41,15 +43,18 @@ for i in cmc.index:
     if loc!=[]: 
         listofnames.append(loc[0])
 
-output=DataFrame(columns=listofnames,index=range(1,450))
+output=DataFrame(columns=listofnames,index=range(1,451))
+scenar_def.index=range(1,451)
 
 for thecol in listofnames:
     output.loc[sc,thecol]=scenar[thecol].max()
     
-for sc in range(2,450):
+for sc in range(2,451):
     scenar=get_scenario_results(sc)
     if type(scenar)!=int:
         for thecol in listofnames:
             output.loc[sc,thecol]=scenar[thecol].max()
+			
+output_and_def=concat([output,scenar_def],axis=1)
             
-output.to_csv("output.csv")
+output_and_def.to_csv("output_and_def.csv")

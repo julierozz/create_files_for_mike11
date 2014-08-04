@@ -1,6 +1,6 @@
 import os
 
-model="C:\wetland_simulations"
+model="D:\wetland_simulations"
 
 from pandas import read_csv
 import os
@@ -22,13 +22,13 @@ for i in scenarios.index:
         scenar_string="0"+str(scenar_number)
     else:
         scenar_string=str(scenar_number)
-    if scenarios.ix[i,'wetland_loss']==70:
+    if scenarios.ix[i,'wetland_loss']==100:
         addline="set dsn={}\sim11files\Scenario_{}.sim11".format(model,scenar_string)
         outputtext+=addline+"\n"+"start /w MzLaunch.exe %dsn% -x\n"
-    addlineextract="res11read -DHIASCII -allres -silent res11files\Scenario{}.res11 outputfiles\scenario{}_all.txt".format(scenar_string,scenar_string)
+    addlineextract="res11read -DHIASCII -allres -silent D:\sri_lanka_outputs\Scenario{}.res11 outputfiles\scenario{}_all.txt".format(scenar_string,scenar_string)
     outputtextextract+=addlineextract+'\n'
     
-file=open("batch70lossCdrive.txt","w")
+file=open("batch100lossDdrive.txt","w")
 file.write(outputtext)
 file.close()
 
