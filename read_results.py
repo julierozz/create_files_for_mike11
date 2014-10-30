@@ -10,11 +10,11 @@ def get_scenario_results(scenar_number):
         scenar_string="0"+str(scenar_number)
     else:
         scenar_string=str(scenar_number)
-    fname="outputfiles\scenario{}_all.txt".format(scenar_string)
+    fname="outputfiles-prasanga\scenario{}_all.txt".format(scenar_string)
     if os.path.isfile(fname):
         scenar=read_table(fname,low_memory=False,header=1)
-        if scenar['Time'].tail(1).values!='2010-11-14T00:00:00':
-            scenar=0
+        # if scenar['Time'].tail(1).values!='2010-11-14T00:00:00':
+            # scenar=0
     else:
         scenar=0
     return scenar
@@ -46,15 +46,19 @@ for i in cmc.index:
 output=DataFrame(columns=listofnames,index=range(1,451))
 scenar_def.index=range(1,451)
 
-for thecol in listofnames:
-    output.loc[sc,thecol]=scenar[thecol].max()
+def extract_results(sc,listofnames,output,scenar):
+	for thecol in listofnames:
+		if (scenar[thecol].max()>scenar[thecol][0])&(scenar[thecol].max()>scenar[thecol].tail(1).values):
+			output.loc[sc,thecol]=scenar[thecol].max()
+	return output
+	
+output=extract_results(sc,listofnames,output,scenar)
     
 for sc in range(2,451):
-    scenar=get_scenario_results(sc)
-    if type(scenar)!=int:
-        for thecol in listofnames:
-            output.loc[sc,thecol]=scenar[thecol].max()
+	scenar=get_scenario_results(sc)
+	if type(scenar)!=int:
+		output=extract_results(sc,listofnames,output,scenar)
 			
 output_and_def=concat([output,scenar_def],axis=1)
             
-output_and_def.to_csv("output_and_def.csv")
+output_and_def.to_csv("output_and_def_oct28.csv")
